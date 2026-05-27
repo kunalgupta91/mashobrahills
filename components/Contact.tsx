@@ -78,10 +78,10 @@ export default function Contact() {
                 <div>
                   <p className="font-sans text-xs text-charcoal/50 uppercase tracking-wide mb-1">Phone / WhatsApp</p>
                   <a
-                    href="tel:+918278860715"
+                    href="tel:+917807241106"
                     className="font-serif text-xl text-forest-dark hover:text-gold transition-colors"
                   >
-                    +91 82788 60715
+                    +91 78072 41106
                   </a>
                 </div>
               </div>
@@ -104,7 +104,7 @@ export default function Contact() {
 
             {/* WhatsApp CTA */}
             <a
-              href="https://wa.me/918278860715?text=Hi%2C%20I'm%20interested%20in%20the%20Aether%20Heights%20property%20in%20Baldeyan%2C%20Himachal%20Pradesh."
+              href="https://wa.me/917807241106?text=Hi%2C%20I'm%20interested%20in%20the%20Aether%20Heights%20property%20in%20Baldeyan%2C%20Himachal%20Pradesh."
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-3 bg-[#25D366] text-white px-8 py-4 font-sans font-medium hover:bg-[#1da851] transition-colors"

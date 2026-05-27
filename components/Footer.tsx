@@ -57,11 +57,11 @@ export default function Footer() {
               <div>
                 <p className="font-sans text-white/40 text-xs mb-1">Sanyam Goyal</p>
                 <a
-                  href="tel:+918278860715"
+                  href="tel:+917807241106"
                   className="flex items-center gap-3 text-white/60 hover:text-gold transition-colors"
                 >
                   <Phone className="w-4 h-4 flex-shrink-0" />
-                  <span className="font-sans text-sm">+91 82788 60715</span>
+                  <span className="font-sans text-sm">+91 78072 41106</span>
                 </a>
               </div>
               <a
@@ -73,7 +73,7 @@ export default function Footer() {
               </a>
             </div>
             <a
-              href="https://wa.me/918278860715"
+              href="https://wa.me/917807241106"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-[#25D366]/20 text-[#25D366] px-4 py-2 text-sm font-sans hover:bg-[#25D366]/30 transition-colors"

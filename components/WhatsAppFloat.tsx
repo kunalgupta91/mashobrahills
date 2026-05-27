@@ -15,7 +15,7 @@ export default function WhatsAppFloat() {
 
   return (
     <motion.a
-      href="https://wa.me/918278860715?text=Hi%2C%20I'm%20interested%20in%20the%20Aether%20Heights%20property%20in%20Baldeyan%2C%20Himachal%20Pradesh."
+      href="https://wa.me/917807241106?text=Hi%2C%20I'm%20interested%20in%20the%20Aether%20Heights%20property%20in%20Baldeyan%2C%20Himachal%20Pradesh."
       target="_blank"
       rel="noopener noreferrer"
       aria-label="Chat on WhatsApp"

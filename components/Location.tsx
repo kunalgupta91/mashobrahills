@@ -45,30 +45,15 @@ export default function Location() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
           {/* Left: Map + distance cards */}
           <div>
-            {/* ─── Map Placeholder ──────────────────────────────────────────────────
-                ⚠️ Replace the div below with a Google Maps iframe:
-                <iframe
-                  src="https://www.google.com/maps/embed?pb=YOUR_EMBED_PARAMS"
-                  width="100%" height="320" style={{ border: 0 }}
-                  allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade"
-                />
-            ──────────────────────────────────────────────────────────────────────── */}
-            <motion.div
+            <motion.iframe
               initial={{ opacity: 0, scale: 0.98 }}
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true }}
-              className="w-full h-72 bg-forest/10 border border-forest/20 flex items-center justify-center mb-8"
-            >
-              <div className="text-center px-4">
-                <MapPin className="w-10 h-10 text-forest/30 mx-auto mb-3" />
-                <p className="font-sans text-forest/50 text-sm">
-                  ⚠️ Replace with Google Maps embed
-                </p>
-                <p className="font-sans text-forest/40 text-xs mt-1">
-                  Baldeyan, near Mashobra, Himachal Pradesh
-                </p>
-              </div>
-            </motion.div>
+              className="w-full h-72 border border-forest/20 mb-8"
+              src="https://maps.google.com/maps?q=31.158056,77.193889&z=16&output=embed"
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+            />
 
             {/* Distance cards */}
             <div className="grid grid-cols-3 gap-4">
