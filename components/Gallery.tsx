@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 const images = [
   { id: 1, src: '/images/gallery-1.png', caption: '11,993 sq.m. — Scale of the Land Parcel', span: 'col-span-2' },
-  { id: 2, src: '/images/gallery-2.png', caption: 'The Land Parcel — Baldeyan, HP', span: '' },
+  { id: 2, src: '/images/gallery-2.jpg', caption: 'The Land Parcel — Baldeyan, HP', span: '' },
   { id: 3, src: '/images/gallery-3.png', caption: 'Surrounding Large-Scale Developments', span: '' },
   { id: 4, src: '/images/gallery-4.png', caption: 'Property Overview', span: 'col-span-2' },
 ]
@@ -84,7 +84,7 @@ export default function Gallery() {
               <video
                 controls
                 className="w-full aspect-video bg-forest-dark"
-                poster="/images/gallery-2.png"
+                poster="/images/gallery-2.jpg"
                 preload="metadata"
               >
                 <source src="/videos/property-tour.mp4" type="video/mp4" />
